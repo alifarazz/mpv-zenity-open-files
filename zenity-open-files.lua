@@ -7,7 +7,7 @@
 --      CTRL+o: Add files to the playlist and replace the current playlist.
 --      CTRL+SHIFT+o: Append files to the playlist.
 --      CTRL+s: Load a subtitle file.
---      CTRL+u: Load an URL.
+--      CTRL+u: Load a URL.
 --
 
 utils = require 'mp.utils'
