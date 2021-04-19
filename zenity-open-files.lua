@@ -13,9 +13,9 @@
 utils = require 'mp.utils'
 
 function select_files_zenity()
-    local focus = utils.subprocess({
-        args = {'xdotool', 'getwindowfocus'}
-    })
+    -- local focus = utils.subprocess({
+    --     args = {'xdotool', 'getwindowfocus'}
+    -- })
     
     if mp.get_property("path") == nill then
         directory = ""
@@ -58,9 +58,9 @@ end
 
 
 function open_url_zenity()
-    local focus = utils.subprocess({
-        args = {'xdotool', 'getwindowfocus'}
-    })
+    -- local focus = utils.subprocess({
+    --     args = {'xdotool', 'getwindowfocus'}
+    -- })
     local url_select = utils.subprocess({
         args = {'zenity', '--entry', '--title=Open URL', '--window-icon=mpv', '--text=Enter URL:'},
         cancellable = false,
@@ -74,9 +74,9 @@ function open_url_zenity()
 end
 
 function add_sub_zenity()
-    local focus = utils.subprocess({
-        args = {'xdotool', 'getwindowfocus'}
-    })
+    -- local focus = utils.subprocess({
+    --     args = {'xdotool', 'getwindowfocus'}
+    -- })
     
     if mp.get_property("path") == nill then
 		directory = ""
