@@ -7,9 +7,14 @@ Based on [ntasos](https://github.com/ntasos)'s [kdialog-open-files.lua](https://
 ### Keybindings
 
 + `CTRL+o`: Add files to the playlist and replace the current playlist.
-+ `CTRL+SHIFT+o`: Append files to the playlist.
++ `CTRL+a`: Append selected files to the playlist.
 + `CTRL+s`: Load a subtitle file.
 + `CTRL+u`: Load a URL.
+
+##### TODO
+
++ `CTRL+SHIFT+o`: Add files in the selected folders to the playlist and replace the current playlist.
++ `CTRL+SHIFT+a`: Append files in the selected folders to the playlist.
 
 <sub>They can be customized at the bottom of the `.lua` file.</sub>
 
