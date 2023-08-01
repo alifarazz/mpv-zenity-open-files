@@ -23,7 +23,7 @@ end
 function invoke_zenity(args)
     -- local focus = get_focus_using_xdotool()
     return utils.subprocess({
-        args = {'zenity', table.unpack(args)},
+        args = {'zenity', unpack(args)},
         cancellable = false,
     })
 end
